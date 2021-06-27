@@ -58,3 +58,4 @@ Vue.use(HaTabs);
 ### 效果
 
 ![effect](./examples/assets/effect.png)
+
