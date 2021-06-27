@@ -1,6 +1,6 @@
 {
   "name": "ha-tabs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "author": "ha",
   "description": "A tabs plugin for Vue.js.",
@@ -18,6 +18,11 @@
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huanganfree/ha-tabs"
+  },
+  "homepage": "https://github.com/huanganfree/ha-tabs#readme",
   "keywords": [
     "tabs",
     "vue",
@@ -35,24 +40,5 @@
     "less": "^4.1.1",
     "less-loader": "^7.3.0",
     "vue-template-compiler": "^2.6.11"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+  }
 }

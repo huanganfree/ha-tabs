@@ -1,5 +1,8 @@
 # ha-tabs
 
+### 说明
+该插件内部使用了较多的jsx语法，亦可作为jsx语法的学习使用
+
 ### 安装
 ```
 npm install ha-tabs
@@ -7,11 +10,11 @@ npm install ha-tabs
 
 ### 使用
 ```
-import HaTabs from '../lib/ha-tabs.umd.min.js';
-import '../lib/ha-tabs.css';
+import HaTabs from 'ha-tabs';
+import 'ha-tabs/lib/ha-tabs.css';
 
 Vue.use(HaTabs);
-
+.....
 <template>
   <div id="app">
    <ha-tabs v-model="activeItem">
