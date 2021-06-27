@@ -7,8 +7,8 @@ npm install ha-tabs
 
 ### 使用
 ```
-import HaTabs from '../lib/ha-tabs.umd.min.js';
-import '../lib/ha-tabs.css';
+import HaTabs from 'ha-tabs';
+import 'ha-tabs/lib/ha-tabs.css';
 
 Vue.use(HaTabs);
 
