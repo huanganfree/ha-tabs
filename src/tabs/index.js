@@ -1,3 +1,5 @@
+// 包体的主模块文件
+
 import Tabs from './tabs.vue';
 import TabsItem from './tabs-item.vue';
 import TabsBody from './tabs-body.vue';

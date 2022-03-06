@@ -21,19 +21,9 @@ module.exports = {
         '@utils': path.resolve(__dirname, './src/utils/')
         // '~entry': path.resolve(__dirname, './src/index.js') // 注意：这个不能省略
       });
+  },
+  devServer: {
+    hot: true
   }
-//   chainWebpack: config => {
-//     config.module
-//       .rule('less')
-//       .use('less-loader')
-//       .loader('less-loader')
-//       .options({
-//         lessOptions: {
-//           /** less-loader 配置 */
-//           strictMath: true,
-//           noIeCompat: true
-//         }
-//       });
-//   }
 }
 ;

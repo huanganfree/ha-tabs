@@ -16,17 +16,12 @@
 </template>
 
 <script>
-// import Tabs from '@/tabs/tabs.vue';
-// import TabsItem from '@/tabs/tabs-item.vue';
-// import TabsBody from '@/tabs/tabs-body.vue';
-// import TabsPane from '@/tabs/tabs-pane.vue';
-// import TabsHead from '@/tabs/tabs-head.vue';
 
 export default {
-  name: 'demo-tabs',
+  name: 'App',
   data() {
     return {
-      activeItem: 3
+      activeItem: 1
     };
   },
   methods: {
@@ -34,12 +29,5 @@ export default {
       console.log(data);
     }
   }
-  // components: {
-  //   'ha-tabs': Tabs,
-  //   'ha-tabs-item': TabsItem,
-  //   'ha-tabs-pane': TabsPane,
-  //   'ha-tabs-head': TabsHead,
-  //   'ha-tabs-body': TabsBody
-  // }
 };
 </script>
